@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugestões</title>
+</head>
+<body>
+    <header>
+        <!--- tres risquinhos dos sites chiques lá-->
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="store.html">Store</a>
+                    <a href="creditos.html">Créditos</a>
+                </div>
+    
+            <a href="store.html "><h1 class="menu-retornar" style="color:rgb(135, 13, 13)">Retornar</h1></a>
+            <h1 class="header-title" style="color:rgba(240, 234, 234, 0.904)">Indigo Valley</h1>
+            <img class="icon" src="icon.png">
+        </header>
+        <main>
+            <form>
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" class="inputPadrao" required placeholder="Seu nome">
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" class="inputPadrao" required placeholder="seuemailaqui@domínio.com"> 
+                
+                <label for="telefone">Telefone</label>
+                <input type="telefone" id="telefone" class="inputPadrao" required placeholder="(XX) xxxxx-xxxx">   
+    
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="inputPadrao" required placeholder="Digite aqui"></textarea>
+            
+                <input type="submit" value="Enviar Formulário" id="button" class="enviar">
+            </form> 
+        </main>
+        <footer class="footer-consepts">
+            <img class="icon-footer" src="icon.png">
+            <p style="color: white;">Enailly Boagensky e André Thomas &copy; COPYRIGHT 2023</p>
+        </footer>
+        <script src="index.js"></script>
+</body>
+</html>
