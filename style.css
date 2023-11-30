@@ -1,0 +1,258 @@
+/* Header */
+header{
+    background-color: rgb(0, 0, 95);
+}
+
+.header-title{
+    display: inline;
+    padding: 10px;
+    color:rgb(135, 13, 13);
+    font-size: 40px;
+    text-align: center;
+}
+
+.header-store{
+ text-align: left;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.riscos{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* O CODIGO GIGANTESCO DOS RISQUINHO*/
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 95); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(135, 13, 13);
+    display: block;
+    transition: 0.3s;
+}
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: rgb(135, 13, 13);
+}
+
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* caixa dos jogos*/
+div li{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.price-games{
+    display: inline-flex;
+    color: rgb(0, 0, 95);
+}
+
+.title-game{
+    font-size: 20px;
+    text-align: center;
+    color:  rgb(135, 13, 13);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 300px;
+}
+.desc-games{
+    color: rgb(0, 0, 95);
+}
+
+/* CLASSES DO INDEX e STORE*/
+.categoria{
+    color: rgb(0, 0, 95);
+    margin: 4px;
+}
+.title-game-1{
+    height: 30px;
+    color: rgb(135, 13, 13);
+    padding-top: 15px;
+    position: relative;
+    padding-left: 150px;
+}
+.tres-riscos{
+    height:50px;
+    width: 50px;
+}
+.conteiner{
+    display: flex;
+    margin: 0%;
+}
+.video-praticamente{
+    margin: auto;
+    height: 300px;
+    width: auto;
+}
+.video-promo{
+    height: 250px;
+    width: auto;
+    padding-bottom: 10px;
+}
+.tag-jogo{
+    padding-top: 180px;
+    margin: 10px;
+}
+.descricao{
+    padding-left: 10px;
+    height: 10px;
+    width: 75px;
+    margin: 10px;
+}
+
+/*Rodapé da página do index*/
+.footer-index{
+    text-align: center;
+    background-color: rgb(25, 25, 90);
+}
+.copiao{
+    color: white;
+}
+.volta-la{
+    color: white;
+}
+/*Rodapé da página do Store*/
+.footer-store{
+    text-align: center;
+    background-color: rgb(25, 25, 90);
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Página do jogo*/
+.content-director{
+    display: inline;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+button{
+    background-color: rgb(135, 13, 13);
+} 
+
+.desc-page{
+    width: 1000px;
+    width: 1000px;
+    text-align: center;
+    text-align: justify;
+    background-color: rgb(20, 20, 122);
+    margin: auto;
+}
+
+.title-game-page{
+    text-align: center;
+}
+
+.text-page{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+.blog{
+    font-size: 20px;
+    color: rgb(135, 13, 13);
+    text-align: justify;
+}
+
+.page-download{
+    background-image: url(background-image.jpeg);
+}
+
+.footer-pagina-jogo{
+    text-align: center;
+    background-color: rgb(25, 25, 90);
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Página de créditos*/
+.menu-retornar{
+    display: inline;
+    padding: 10px;
+    color: rgba(240, 234, 234, 0.904);
+    font-size: 10px;
+    text-align: center;
+}
+.footer-creditos{
+    text-align: center;
+    background-color: rgb(25, 25, 90);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Página dos Blogs*/
+.pagina-blogs{
+    background-color: rgb(0, 0, 95);
+    position: relative;
+    top: 908px;
+    width: 2534px;
+    text-align: center;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Página de suporte*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Página dos Consepts*/
+.footer-consepts{
+    text-align: center;
+    background-color: rgb(25, 25, 90);
+}
+
+/*Engloba todos os footer*/
+.icon-footer{
+    width: 30px;
+    height: 30px;
+}
+.footer-gamejam{
+    text-align: center;
+    background-color: rgb(25, 25, 90);
+}
+
